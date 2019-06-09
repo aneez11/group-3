@@ -1,0 +1,21 @@
+function my_custom_post_type()
+{
+	register_post_type('Interns,array(
+	'labels'=>array(
+	'name'=>_('Interns'),
+	'singular_name'=>_('Intern')
+),
+     'has_archibe'  =>true,
+     'public'  => true,
+     'rewrite' => array('slug' => 'intens'),
+     'show_in_rest' => true,
+     'supports' => array(
+     'editor','title','excerpt','thumbnail'),
+     'taxonomies' => array(
+     'post_tag','category')
+
+
+     ));
+}
+add_action('init','my_custom_post_type');
+?>
