@@ -1,0 +1,35 @@
+
+.footer-container{
+	background-color: #cc2027;
+	color:white;
+
+}
+.footer-text{
+	text-align:center;
+	font-style:italic;
+	justify-content: center;
+}
+.vr {
+    width:1px;
+    background-color:#000;
+    position:absolute;
+    top:0;
+    bottom:0;
+    left:150px;
+}
+.footer_a{
+	color:white;
+
+}
+.footer_a:hover{
+	color:yellow;
+	text-decoration: none;
+}
+.p-text{
+	justify-content: center;
+}
+.footer-copywrite{
+	font-size:18px;
+	text-align: center;
+	font-family: museo-slab;
+}
